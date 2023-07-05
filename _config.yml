@@ -129,15 +129,15 @@ navigation_header:
   url: /blog/
 - title: Categories
   url: /categories/
-- title: Tìm kiếm
+- title: Search
   url: /search/
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Created by KaoDii
+  url: https://www.patreon.com/kaodii
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
+  Twitter: https://twitter.com/kao_dii
   LinkedIn: https://www.linkedin.com/in/daviddarnes
   GitHub: https://github.com/daviddarnes
   link: https://darn.es
