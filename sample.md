@@ -7,6 +7,21 @@ excerpt: "Nơi chia sẻ các Ebook về Stable Diffusion do mình viết và s�
 aside: true
 ---
 
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+* TOC
+{:toc}
+
 <small>A small element</small>
 
 [A link](https://www.patreon.com/kaodii "My Patreon")

@@ -52,6 +52,7 @@ social: # jekyll-seo-tag > social overrides
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
   # extensions: ["strikethrough", "autolink", "table"]
+markdown: kramdown
 
 # 4. Jekyll settings
 sass:
@@ -98,8 +99,8 @@ logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Đây là nơi chia sẻ các Ebooks do mình viết cũng như sưu tầm từ nhiều nguồn. Các Ebooks Tiếng Việt đều đã được mình xin phép từ các tác giả." # Site description and default description, also used in jekyll-seo-tag
 url: "https://kaodii.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+# repo: "https://github.com/daviddarnes/alembic"
+email: "dikaoplus@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -137,8 +138,8 @@ navigation_header:
   url: /sample/
 
 navigation_footer:
-- title: My Patreon
-  url: https://www.patreon.com/kaodii
+- title: Ủng hộ mình đi (´▽`ʃ♡ƪ)
+  url: /donate/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/kao_dii
