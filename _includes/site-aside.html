@@ -10,9 +10,11 @@
       <h3>Trang này có gì</h3>
       <p>{{ site.description }}</p>
       {% include nav-social.html %}
+      <h3>Chủ đề</h3>
+      {% include nav-categories.html %}
     </section>
 
-  {% if page.layout == "categories" %}
+  {% elsif page.layout == "categories" %}
     <section class="section  section--category-index">
       <h3>Chủ đề</h3>
       {% include nav-categories.html %}
