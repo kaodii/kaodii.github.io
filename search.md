@@ -1,5 +1,5 @@
 ---
-title: Search
+title: Tìm kiếm
 excerpt: "Search for a page or post you're looking for"
 ---
 

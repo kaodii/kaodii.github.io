@@ -1,7 +1,7 @@
 ---
-title: Thanks!
+title: Cám ơn bạn!
 indexing: false
 sitemap: false
 ---
 
-Thanks for getting in touch! We'll respond as soon as we can.
+Cám ơn bạn. Chúng mình sẽ liên hệ lại ngay khi nhận được!
