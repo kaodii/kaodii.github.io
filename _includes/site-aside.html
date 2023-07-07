@@ -10,8 +10,10 @@
     <h3>Trang này có gì</h3>
     <p>{{ site.description }}</p>
     {% include nav-social.html %}
-    <h4>Table of Contents</h4>
-    {{ content | toc }}
+    <h5>Table of Contents</h5>
+    <div id="table-of-contents">
+      {% toc %}
+    </div>
   </section>
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
