@@ -11,9 +11,7 @@
     <p>{{ site.description }}</p>
     {% include nav-social.html %}
     <h5>Table of Contents</h5>
-    <div id="table-of-contents">
-      {% toc %}
-    </div>
+    {% toc %}
   </section>
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
