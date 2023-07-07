@@ -66,9 +66,8 @@ collections:
   posts:
     title: Blogs # Needed for Siteleaf
     output: true
-    description: "các bài Blogs về Stable Diffusion" # The post list page content
-    feature_text: |
-      Chào mừng đến với Blog Stable Diffusion Cơ Bản
+    description: "Blogs mới nhất:" # The post list page content
+    feature_text:
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
@@ -94,7 +93,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Stable Diffusion cơ bản" # Site name or title, also used in jekyll-seo-tag
+title: "Blog Stable Diffusion cơ bản" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Đây là nơi chia sẻ các Ebooks do mình viết cũng như sưu tầm từ nhiều nguồn. Các Ebooks Tiếng Việt đều đã được mình xin phép từ các tác giả." # Site description and default description, also used in jekyll-seo-tag
 url: "https://kaodii.github.io" # Site url, also used in jekyll-seo-tag
@@ -128,7 +127,7 @@ navigation_header:
   url: /ebooks/
 - title: Blogs
   url: /blog/
-- title: Mục lục
+- title: Chủ Đề
   url: /categories/
 - title: Tìm kiếm
   url: /search/
@@ -143,6 +142,7 @@ navigation_footer:
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/kao_dii
+  Facebook: https://www.facebook.com/kaodiisd
   # LinkedIn: https://www.linkedin.com/in/daviddarnes
   # GitHub: https://github.com/daviddarnes
   # link: https://darn.es

@@ -1,5 +1,6 @@
 ---
 title: Ebooks
+layout: ebooks
 feature_text: |
   Nơi chia sẻ các Ebooks về Stable Diffusion
 feature_image: "https://picsum.photos/2560/600?image=873"
