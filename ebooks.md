@@ -7,6 +7,13 @@ feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "Nơi chia sẻ các Ebook về Stable Diffusion do mình viết và sưu tầm"
 aside: true
 ---
+
+<aside markdown="1">
+<h4>Table of Contents</h4>
+* ToC
+{:toc}
+</aside>
+
 # A
 
 # B
