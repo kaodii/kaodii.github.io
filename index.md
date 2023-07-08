@@ -11,4 +11,4 @@ excerpt: "Đây là một Blog cá nhân mà mình viết để có thể dễ d
 
 Dù không hay đăng gì lắm :v nhưng bạn có thể tìm thấy mình qua các trang sau:
 
-{% include button.html text="Anime Art Facebook Group" icon="facebook" link="https://www.facebook.com/groups/vnanimeaiart" color="#0366d6" %} {% include button.html text="Facebook của mình" icon="facebook" link="https://www.facebook.com/kaodiisd" color="#0366d6" %} {% include button.html text="Twitter của mình" icon="twitter" link="https://twitter.com/kao_dii" color="#0d94e7" %}
+{% include button.html text="Anime AI Art Group" icon="facebook" link="https://www.facebook.com/groups/vnanimeaiart" color="#0366d6" %} {% include button.html text="Facebook của mình" icon="facebook" link="https://www.facebook.com/kaodiisd" color="#0366d6" %} {% include button.html text="Twitter của mình" icon="twitter" link="https://twitter.com/kao_dii" color="#0d94e7" %}

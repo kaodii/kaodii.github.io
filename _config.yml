@@ -132,6 +132,8 @@ navigation_header:
   url: /categories/
 - title: Tìm kiếm
   url: /search/
+- title: Hình ảnh
+  url: /images/
 - title: Ủng Hộ
   url: /donate/
 - title: Sample Page
