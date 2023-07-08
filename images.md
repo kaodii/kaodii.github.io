@@ -13,4 +13,4 @@ Thay vào đó, mình có thình thoảng post các ảnh mình tạo ra trên T
 
 Bên cạnh đó, bạn cũng có thể tìm các hình ảnh độ phân giải cao của mình trên Devian
 
-{% include button.html text="Devian của mình nè ☕️" link="https://www.deviantart.com/dikaoplus" color="#0f0f0f" %}
+{% include button.html text="Devian của mình nè!" link="https://www.deviantart.com/dikaoplus" color="#0f0f0f" %}
