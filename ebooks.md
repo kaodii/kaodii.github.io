@@ -9,17 +9,40 @@ aside: true
 toc: true
 ---
 
-# A
+# Stable Diffusion Cơ Bản
 
-# B
+## Cài đặt
 
-# C
+[Tổng quan về Stable Diffusion]
 
-# D
+[CÁCH CÀI ĐẶT STABLE DIFFUSION](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing)
 
-## E
+## Kiến thức và Cách sử dụng tổng quát
 
-### F
+[Chap 1: Tổng quan về Automatic1111](https://drive.google.com/file/d/1q1y4DLwOnqJwi0w6tyI-xfgjZyTZgcpv/view?usp=drive_link)
 
+[Chap 2: Highres fix và Restore face](https://drive.google.com/file/d/18sV2U1Nk8Vx7ZHxvrfWG9FhpJTbB1lHs/view?usp=drive_link)
 
-[A link](https://www.patreon.com/kaodii "My Patreon")
+[Chap 3: VAE và CLIPSKIP](https://drive.google.com/file/d/1Zry9lXFIyb3gbl44yqI1obL-IV44kI6P/view?usp=drive_link)
+
+[Chap 4: XYZ plot và Extra](https://drive.google.com/file/d/1AxEWIRN8SxHW_UWh3Tqv15HR3jS_ojfs/view?usp=drive_link)
+
+[Chap 5: Img2Img](https://drive.google.com/file/d/1j8ata8vjrG1A_Uk9_QphrTBcmvQjsFGU/view?usp=drive_link)
+
+[Chap 6: LoRA & LyCORIS & Textual Inversion](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=drive_link)
+
+# Stable Diffusion Nâng Cao
+
+## Automatic1111 Wiki Việt hóa
+
+## Automatic1111 - Các Setting hữu ích
+
+## ControlNet
+
+[ControlNet Wiki: Preprocessor và Model]
+
+## Tổng hợp extension hữu ích
+
+## Checkpoint - LyCORIS - Embedding
+
+## Nghệ thuật dùng Prompt
