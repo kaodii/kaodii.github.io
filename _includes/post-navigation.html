@@ -1,11 +1,11 @@
 <nav class="nav  nav--navigation">
 
-    <div style="float: right;">
+    <div style="float: left;">
     {% if page.previous.url %}
         <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
     {% endif %}
     </div>
-    <div style="float: left;">
+    <div style="float: right;">
     {% if page.next.url %}
         <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
     {% endif %}
