@@ -32,17 +32,23 @@ Tổng quan về Stable Diffusion (Comming soon...)
 [Chap 6: LoRA & LyCORIS & Textual Inversion](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=drive_link)
 
 ### Stable Diffusion Nâng Cao
+(Comming soon...)
 
 #### Automatic1111 Wiki Việt hóa
+(Comming soon...)
 
 #### Automatic1111 - Các Setting hữu ích
+(Comming soon...)
 
 #### ControlNet
 
 ControlNet Wiki: Preprocessor và Model (Comming soon...)
 
 #### Tổng hợp extension hữu ích
+(Comming soon...)
 
 #### Checkpoint - LyCORIS - Embedding
+(Comming soon...)
 
 #### Stable Diffusion Prompting
+(Comming soon...)
