@@ -18,7 +18,11 @@ layout: default
 
   </article>
 
+  {% include post-pagination.html %}
+
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+  {% raw %}{% include site-form.html %}{% endraw %}
 
 </main>
 

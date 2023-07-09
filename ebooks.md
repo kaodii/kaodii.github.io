@@ -9,15 +9,15 @@ aside: true
 toc: true
 ---
 
-# Stable Diffusion Cơ Bản
+### Stable Diffusion Cơ Bản
 
-## Cài đặt
+#### Cài đặt
 
-[Tổng quan về Stable Diffusion]
+Tổng quan về Stable Diffusion (Comming soon...)
 
-[CÁCH CÀI ĐẶT STABLE DIFFUSION](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing)
+[Cách cài đặt Stable Diffusion](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing)
 
-## Kiến thức và Cách sử dụng tổng quát
+#### Kiến thức và Cách sử dụng tổng quát
 
 [Chap 1: Tổng quan về Automatic1111](https://drive.google.com/file/d/1q1y4DLwOnqJwi0w6tyI-xfgjZyTZgcpv/view?usp=drive_link)
 
@@ -31,18 +31,18 @@ toc: true
 
 [Chap 6: LoRA & LyCORIS & Textual Inversion](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=drive_link)
 
-# Stable Diffusion Nâng Cao
+### Stable Diffusion Nâng Cao
 
-## Automatic1111 Wiki Việt hóa
+#### Automatic1111 Wiki Việt hóa
 
-## Automatic1111 - Các Setting hữu ích
+#### Automatic1111 - Các Setting hữu ích
 
-## ControlNet
+#### ControlNet
 
-[ControlNet Wiki: Preprocessor và Model]
+ControlNet Wiki: Preprocessor và Model (Comming soon...)
 
-## Tổng hợp extension hữu ích
+#### Tổng hợp extension hữu ích
 
-## Checkpoint - LyCORIS - Embedding
+#### Checkpoint - LyCORIS - Embedding
 
-## Nghệ thuật dùng Prompt
+#### Stable Diffusion Prompting
