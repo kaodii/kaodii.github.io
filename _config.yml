@@ -100,7 +100,7 @@ description: "Đây là nơi chia sẻ các Ebooks do mình viết cũng như s�
 url: "https://kaodii.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 # repo: "https://github.com/daviddarnes/alembic"
-email: "dikaoplus@gmail.com"
+# email: "dikaoplus@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
