@@ -5,9 +5,9 @@ feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "Hình trưng bày"
 ---
 
-Blog này hông có chứa các tác phẩm của mình vì nó nhiều với nặng quá.
+Blog này không có chứa các tác phẩm của mình vì nó khá nhiều và nặng.
 
-Thay vào đó, mình có thình thoảng post các ảnh mình tạo ra trên Twitter và Group Facebook.
+Thay vào đó, mình có post các ảnh mình tạo ra trên Twitter và Group Facebook.
 
 {% include button.html text="Anime AI Art Group" icon="facebook" link="https://www.facebook.com/groups/vnanimeaiart" color="#0366d6" %} {% include button.html text="Twitter của mình" icon="twitter" link="https://twitter.com/kao_dii" color="#0d94e7" %}
 
