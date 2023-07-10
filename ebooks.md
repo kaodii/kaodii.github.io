@@ -9,8 +9,6 @@ aside: true
 toc: true
 ---
 
-## Ebooks
-
 ### Stable Diffusion Cơ Bản
 
 #### Cài đặt
@@ -55,6 +53,6 @@ ControlNet Wiki: Preprocessor và Model (Coming soon...)
 #### Stable Diffusion Prompting
 (Coming soon...)
 
-## Website hữu ích
+### Website hữu ích
 
 1. Mlem.tv
