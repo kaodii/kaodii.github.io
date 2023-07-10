@@ -1,19 +1,21 @@
 ---
-title: Ebooks
+title: Tài liệu
 layout: ebooks
 feature_text: |
-  Nơi chia sẻ các Ebooks về Stable Diffusion
+  Nơi chia sẻ các tài liệu về Stable Diffusion
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "Nơi chia sẻ các Ebook về Stable Diffusion do mình viết và sưu tầm"
 aside: true
 toc: true
 ---
 
+## Ebooks
+
 ### Stable Diffusion Cơ Bản
 
 #### Cài đặt
 
-Tổng quan về Stable Diffusion (Comming soon...)
+Tổng quan về Stable Diffusion (Coming soon...)
 
 [Cách cài đặt Stable Diffusion](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing)
 
@@ -32,23 +34,27 @@ Tổng quan về Stable Diffusion (Comming soon...)
 [Chap 6: LoRA & LyCORIS & Textual Inversion](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=drive_link)
 
 ### Stable Diffusion Nâng Cao
-(Comming soon...)
+(Coming soon...)
 
 #### Automatic1111 Wiki Việt hóa
-(Comming soon...)
+(Coming soon...)
 
 #### Automatic1111 - Các Setting hữu ích
-(Comming soon...)
+(Coming soon...)
 
 #### ControlNet
 
-ControlNet Wiki: Preprocessor và Model (Comming soon...)
+ControlNet Wiki: Preprocessor và Model (Coming soon...)
 
 #### Tổng hợp extension hữu ích
-(Comming soon...)
+(Coming soon...)
 
 #### Checkpoint - LyCORIS - Embedding
-(Comming soon...)
+(Coming soon...)
 
 #### Stable Diffusion Prompting
-(Comming soon...)
+(Coming soon...)
+
+## Website hữu ích
+
+1. Mlem.tv

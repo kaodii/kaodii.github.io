@@ -96,7 +96,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Blog Stable Diffusion cơ bản" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Đây là nơi chia sẻ các Ebooks do mình viết cũng như sưu tầm từ nhiều nguồn. Các Ebooks Tiếng Việt đều đã được mình xin phép từ các tác giả." # Site description and default description, also used in jekyll-seo-tag
+description: "Đây là nơi chia sẻ các Trang Web và Ebooks do mình viết cũng như sưu tầm từ nhiều nguồn. Các Ebooks Tiếng Việt đều đã được mình xin phép từ các tác giả." # Site description and default description, also used in jekyll-seo-tag
 url: "https://kaodii.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 # repo: "https://github.com/daviddarnes/alembic"
