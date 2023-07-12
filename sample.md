@@ -2,7 +2,7 @@
 title: Ebooks
 feature_text: |
   Nơi chia sẻ các Ebooks về Stable Diffusion
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "https://i.imgur.com/fN6YaMn.png"
 excerpt: "Nơi chia sẻ các Ebook về Stable Diffusion do mình viết và sưu tầm"
 aside: true
 ---

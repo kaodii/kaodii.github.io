@@ -1,7 +1,7 @@
 ---
 title: Donate
 feature_text:
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "https://i.imgur.com/fN6YaMn.png"
 excerpt: "Ủng hộ nhe"
 ---
 Nếu thấy những nội dung mình chia sẻ là hữu ích, hãy ủng hộ mình nhé.
