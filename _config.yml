@@ -124,10 +124,10 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Tài liệu
-  url: /ebooks/
 - title: Blogs
   url: /blog/
+- title: Tài liệu
+  url: /ebooks/
 - title: Chủ Đề
   url: /categories/
 - title: Tìm kiếm
