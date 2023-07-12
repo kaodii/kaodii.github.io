@@ -1,7 +1,6 @@
 ---
-title: Ủng hộ
-feature_text: |
-    💖💖💖
+title: Donate
+feature_text:
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "Ủng hộ nhe"
 ---

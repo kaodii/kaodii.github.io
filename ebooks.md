@@ -1,9 +1,8 @@
 ---
 title: Tài liệu
 layout: ebooks
-feature_text: |
-  Nơi chia sẻ các tài liệu về Stable Diffusion
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_text:
+feature_image: "https://i.imgur.com/Mk5HKeL.png"
 excerpt: "Nơi chia sẻ các Ebook về Stable Diffusion do mình viết và sưu tầm"
 aside: true
 toc: true
