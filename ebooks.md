@@ -31,7 +31,6 @@ Tổng quan về Stable Diffusion (Coming soon...)
 [Chap 6: LoRA & LyCORIS & Textual Inversion](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=drive_link){:target="_blank"}
 
 ### Stable Diffusion Nâng Cao
-(Coming soon...)
 
 #### Automatic1111 Wiki Việt hóa
 (Coming soon...)
@@ -54,4 +53,12 @@ ControlNet Wiki: Preprocessor và Model (Coming soon...)
 
 ### Website hữu ích
 
-1. Mlem.tv
+[**Civitai**](https://civitai.com){:target="_blank"}
+Nơi chia sẻ vô vàn các model (a.k.a checkpoint) để bạn thỏa sức sáng tạo
+
+[**StableDiffusionVN**](https://stablediffusion.vn){:target="_blank"}
+Trang web chứa bộ công cụ sử dụng Stable Diffusion cho người Việt trên Google Colab hoàn toàn miễn phí và được admin cập nhật liên tục. Siêu tiện lợi và siêu nhiều công cụ hữu ích để bạn mày mò. Nếu như chiếc PC nhà bạn không thể cài đặt và sử dụng Stable Diffusion một cách ổn định thì đây là trang web tuyệt vời dành cho bạn.
+
+[**SdTool** (Tiếng Anh)](https://sdtools.org/){:target="_blank"}
+Có quá nhiều thứ xuất hiện trong cộng đồng Stable Diffusion mà bạn không hiểu nó là cái gì, hoặc bạn muốn tìm hiểu sâu hơn về Stable Diffusion như định nghĩa, cách hoạt động, các thuật toán đằng sau,... thì đây là một bộ tool giải thích ngắn gọn những gì bạn cần biết về Stable Diffusion
+
