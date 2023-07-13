@@ -1,6 +1,6 @@
 ---
 title: Tìm kiếm
-excerpt: "Search for a page or post you're looking for"
+excerpt: "Tìm kiếm mọi thứ trên Blog Stable Diffusion Cơ Bản"
 ---
 
 {% include site-search.html %}

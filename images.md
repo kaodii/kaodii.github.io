@@ -2,7 +2,7 @@
 title: Hình ảnh
 feature_text:
 feature_image: "https://i.imgur.com/fN6YaMn.png"
-excerpt: "Hình trưng bày"
+excerpt: "Trang này chứa các sản phẩm của mình"
 ---
 
 Blog này không có chứa các tác phẩm của mình vì nó khá nhiều và nặng.
