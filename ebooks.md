@@ -56,13 +56,25 @@ ControlNet Wiki: Preprocessor và Model (Coming soon...)
 ### Website hữu ích
 
 [**Civitai**](https://civitai.com){:target="_blank"} \\
-Nơi chia sẻ vô vàn các model (a.k.a checkpoint) để bạn thỏa sức sáng tạo
+Nơi chia sẻ vô vàn các model (a.k.a checkpoint) để bạn thỏa sức sáng tạo.
 
 [**StableDiffusionVN**](https://stablediffusion.vn){:target="_blank"} \\
 Trang web chứa bộ công cụ sử dụng Stable Diffusion cho người Việt trên Google Colab hoàn toàn miễn phí và được admin cập nhật liên tục. Siêu tiện lợi và siêu nhiều công cụ hữu ích để bạn mày mò. Nếu như chiếc PC nhà bạn không thể cài đặt và sử dụng Stable Diffusion một cách ổn định thì đây là trang web tuyệt vời dành cho bạn.
 
 [**SdTool**](https://sdtools.org/){:target="_blank"} \\
-Có quá nhiều thứ xuất hiện trong cộng đồng Stable Diffusion mà bạn không hiểu nó là cái gì, hoặc bạn muốn tìm hiểu sâu hơn về Stable Diffusion như định nghĩa, cách hoạt động, các thuật toán đằng sau,... thì đây là một bộ tool giải thích ngắn gọn những gì bạn cần biết về Stable Diffusion
+Có quá nhiều thứ xuất hiện trong cộng đồng Stable Diffusion mà bạn không hiểu nó là cái gì, hoặc bạn muốn tìm hiểu sâu hơn về Stable Diffusion như định nghĩa, cách hoạt động, các thuật toán đằng sau,... thì đây là một bộ tool giải thích ngắn gọn những gì bạn cần biết về Stable Diffusion.
 
 [**UpScaler Wiki**](https://upscale.wiki/wiki/Model_Database){:target="_blank"} \\
 Một nơi chứa vô vàn các Upscaler với các công dụng và mục đích khác nhau để bạn lựa chọn.
+
+[**LunarMiMi prompt guide**](https://lunarmimi.net/freebies/novelai-anime-girl-prompt-guide/){:target="_blank"} \\
+Bạn muốn tạo cho mình một waifu mà không biết bắt đầu từ đâu, không biết nên prompt như thế nào, không biết nên miêu tả mái tóc, cử chỉ, cảm xúc,... của cô ấy ra sao? Hãy ghé thăm trang web này và bạn sẽ nhận được điều mình muốn.
+
+[**How I Been Trained**](https://haveibeentrained.com/){:target="_blank"} \\
+Một website cho phép bạn search từ một bức ảnh và đoán xem thử tập dataset nào đã được sử dụng để train nó. Với tập data gần 6 tỉ ảnh, đây là một công cụ tuyệt vời nếu bạn đang muốn tìm data về phong cách hoặc họa sĩ cho việc training model.
+
+[**NovelAI Tag Experiments**](https://zele.st/NovelAI/){:target="_blank"} \\
+Bạn thiếu thốn từ vựng Tiếng Anh, gặp khó khăn trong việc viết prompt, đồng thời bạn cũng muốn biết các prompt có tác dụng như thế nào thông qua các hình ảnh minh họa? Hãy thử với trang web này nhé!
+
+[**ArtWorks Museum**](https://www.artrenewal.org/Museum/Search#/){:target="_blank"} \\
+Bạn muốn train một style art từ một họa sĩ nổi tiếng, hoặc muốn tìm tên của một họa sĩ theo trường phái yêu thích, hoặc chỉ đơn giản là một người đam mê hội họa và muốn tìm thêm về các họa sĩ và tác phẩm nổi tiếng, bạn có thể tìm thử ở đây.
