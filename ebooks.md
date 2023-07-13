@@ -10,9 +10,9 @@ toc: true
 
 ### Stable Diffusion Cơ Bản
 
-#### Cài đặt
+#### Cài đặt và khởi động
 
-Tổng quan về Stable Diffusion (Coming soon...)
+Bắt đầu với Stable Diffusion (Coming soon...)
 
 [Cách cài đặt Stable Diffusion](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing){:target="_blank"}
 
@@ -55,12 +55,14 @@ ControlNet Wiki: Preprocessor và Model (Coming soon...)
 
 ### Website hữu ích
 
-#### [**Civitai**](https://civitai.com){:target="_blank"}
+[**Civitai**](https://civitai.com){:target="_blank"} \\
 Nơi chia sẻ vô vàn các model (a.k.a checkpoint) để bạn thỏa sức sáng tạo
 
-#### [**StableDiffusionVN**](https://stablediffusion.vn){:target="_blank"}
+[**StableDiffusionVN**](https://stablediffusion.vn){:target="_blank"} \\
 Trang web chứa bộ công cụ sử dụng Stable Diffusion cho người Việt trên Google Colab hoàn toàn miễn phí và được admin cập nhật liên tục. Siêu tiện lợi và siêu nhiều công cụ hữu ích để bạn mày mò. Nếu như chiếc PC nhà bạn không thể cài đặt và sử dụng Stable Diffusion một cách ổn định thì đây là trang web tuyệt vời dành cho bạn.
 
-#### [**SdTool** (Tiếng Anh)](https://sdtools.org/){:target="_blank"}
+[**SdTool**](https://sdtools.org/){:target="_blank"} \\
 Có quá nhiều thứ xuất hiện trong cộng đồng Stable Diffusion mà bạn không hiểu nó là cái gì, hoặc bạn muốn tìm hiểu sâu hơn về Stable Diffusion như định nghĩa, cách hoạt động, các thuật toán đằng sau,... thì đây là một bộ tool giải thích ngắn gọn những gì bạn cần biết về Stable Diffusion
 
+[**UpScaler Wiki**](https://upscale.wiki/wiki/Model_Database){:target="_blank"} \\
+Một nơi chứa vô vàn các Upscaler với các công dụng và mục đích khác nhau để bạn lựa chọn.
