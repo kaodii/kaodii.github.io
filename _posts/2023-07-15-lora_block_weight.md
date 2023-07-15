@@ -28,25 +28,14 @@ Có thể nói, LoRA đem đến cho bạn sức mạnh của một model với 
 
 Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài. Nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766):
 
-<good>
-```c
-{% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="300" height="300" %}
-```
-</good>
-<bad>
-```c
-{% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="300" height="300" %}
-```
-</bad>
-
-<!-- <div class="row">
+<div class="row">
   <div class="col-md-4" markdown="1">
-  {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="300" height="300" %}
+  ![hehe](https://i.imgur.com/9tpdYu1.png)
   </div>
   <div class="col-md-8" markdown="1">
-  {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="300" height="300" %}
+  ![hehe](https://i.imgur.com/pRQBxz1.png)
   </div>
-</div> -->
+</div>
 
 # Cách khống chế LoRA theo từng Block
 
@@ -56,11 +45,13 @@ Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là d�
 
 ***<lora:lora_name:weight>***
 
-Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm: 
+Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
+|---
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
 | BASE | IN01 | IN02 | IN04 | IN05 | IN07 | IN08 | MID | OUT03 | OUT04 | OUT05 | OUT06 | OUT07 | OUT08 | OUT09 | OUT10 | OUT11 |
+|---
 
 Và với LyCoris thì còn nhiều hơn nữa, tận 26 blocks.
 
@@ -84,7 +75,7 @@ Với bản LoRA mặc định trên AUTO1111, bạn hoàn toàn có thể đi�
 
 ***<lora:lora_name:weight chung:weight riêng cho từng block>***
 
-vd: <lora:Doraemon_lora:0.7:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0>
+vd: ***<lora:Doraemon_lora:0.7:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0>***
 
 Hmm, có vẻ hơi nhức đầu rồi!     o(￣┰￣*)ゞ
 
@@ -92,9 +83,9 @@ Trên thực tế, điều chỉnh như thế là không ổn vì điều chỉn
 
 ví dụ: để chỉ sử dụng các **block IN** và không dùng các block khác, ta sẽ set 7 block đầu với weight là 1 và tắt toàn bộ các block khác bằng cách gán weight là 0. Ví dụ:
 
-<lora:Doraemon_lora:0.7:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0>
+***<lora:Doraemon_lora:0.7:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0>***
 
-Tương tự đối với các nhóm blocks khác. Tuy nhiên, cách làm này vẫn quá rườm rà và đau não rồi! Do đó mình sẽ giới thiệu một extension giúp bạn làm công việc trên một cách gọn gàng hơn!
+Tuy nhiên, cách làm này vẫn quá rườm rà và đau não rồi! Do đó mình sẽ giới thiệu một extension giúp bạn làm công việc trên một cách gọn gàng hơn!
 
 # Extension LoRA Block Weight
 
@@ -116,29 +107,25 @@ Cấu trúc của LoRA khi dùng extension vẫn là
 
 nhưng lúc này thay vì phải gán từng weight một cho từng block, extension này hỗ trợ bạn set tham số dễ dàng hơn bằng cách đặt “biệt danh (alias)” cho từng nhóm weight. Hiện tại, extension có sẵn các nhóm sau:
 
-> NONE:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-INS:1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-IND:1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0
-INALL:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
-MIDD:1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0
-OUTD:1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
-OUTS:1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-OUTALL:1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+> NONE:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 \\
+ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 \\
+INS:1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0 \\
+IND:1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0 \\
+INALL:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0 \\
+MIDD:1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0 \\
+OUTD:1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0 \\
+OUTS:1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1 \\
+OUTALL:1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1 \\
 ALL0.5:0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
 > 
 
 Khi đó bạn chỉ cần thêm alias vào là được. Ví dụ
 
-<lora:Doraemon_lora:0.7:MIDD>
+***<lora:Doraemon_lora:0.7:MIDD>***
 
 Ngoài những alias có sẵn, bạn cũng có thể tự tạo cho mình các alias yêu thích và lưu lại chúng vào extension này và sử dụng.
 
 ![melma.png](https://i.imgur.com/c0VQGKY.png)
-
-khi dùng alias
-
-khi dùng alias
 
 ## XYZ Plot cho LoRA Block Weight
 
@@ -172,7 +159,7 @@ Sử dụng kĩ thuật này, ta hoàn toàn có thể tự tin khi sử dụng 
 - Hires. fix chưa được hỗ trợ trên extension này nên nếu bạn bật Hires. fix thì extension sẽ không hoạt động
 - Khi dùng XYZ Plot của extension, bạn còn có thể sử dụng ZYX thay vì XYZ, điều này sẽ đảo ngược weight lại
 
-> Dùng XYZ: 1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0
+> Dùng XYZ: 1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0 \\
 > Dùng ZYX: 0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1
 
 - Đừng set batch size lớn hơn 1, nếu không extension sẽ không hoạt động
