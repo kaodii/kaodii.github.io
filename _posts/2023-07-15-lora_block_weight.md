@@ -30,7 +30,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 <div class="row">
   <div class="col-md-4" markdown="1">
-  {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu "áo dài" là gì" %}
+  {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" %}
   </div>
   <div class="col-md-4" markdown="1">
   {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài." %}
