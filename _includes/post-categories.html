@@ -8,6 +8,7 @@
         <li class="item  item--post">
           <article class="article  article--post  typeset">
             <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+            {% include post-meta.html %}
           </article>
         </li>
       {% endfor %}
