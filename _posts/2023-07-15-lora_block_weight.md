@@ -29,19 +29,19 @@ Có thể nói, LoRA đem đến cho bạn sức mạnh của một model với 
 Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài. Nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766):
 
 |---
-| ![hehe](https://i.imgur.com/9tpdYu1.png) | ![hehe](https://i.imgur.com/pRQBxz1.png)
-|-|-
-| Không dùng LoRA, model không hiểu áo dài là gì | Có dùng LoRA áo dài
+| ![hehe](https://i.imgur.com/9tpdYu1.png) | | ![hehe](https://i.imgur.com/pRQBxz1.png)
+|-|-|-
+| Không dùng LoRA, model không hiểu áo dài là gì | | Có dùng LoRA áo dài
 |---
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-4" markdown="1">
   {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="500" height="500" %}
   </div>
   <div class="col-md-8" markdown="1">
   {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="500" height="500" %}
   </div>
-</div>
+</div> -->
 
 # Cách khống chế LoRA theo từng Block
 
@@ -59,24 +59,12 @@ Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một
 | BASE | IN01 | IN02 | IN04 | IN05 | IN07 | IN08 | MID | OUT03 | OUT04 | OUT05 | OUT06 | OUT07 | OUT08 | OUT09 | OUT10 | OUT11 
 |--- -->
 
-<!-- |---
+|---
 | 1 | 2 | 3 
 |-|-|-
 | BASE | IN01 | IN02
-|--- -->
-
-
 |---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row
+{:.mbtablestyle}
 
 Và với LyCoris thì còn nhiều hơn nữa, tận 26 blocks.
 

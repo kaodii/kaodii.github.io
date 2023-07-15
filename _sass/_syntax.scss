@@ -59,3 +59,10 @@
 .vg { color: #008080 } /* Name.Variable.Global */
 .vi { color: #008080 } /* Name.Variable.Instance */
 .il { color: #009999 } /* Literal.Number.Integer.Long */
+.mbtablestyle {
+    border-collapse: collapse;
+
+> table, td, th {
+    border: 1px solid black;
+    }
+}
