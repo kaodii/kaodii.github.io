@@ -26,16 +26,27 @@ LoRA (LowRank-Adaptation of Large Language Model), có thể hiểu đơn giản
 
 Có thể nói, LoRA đem đến cho bạn sức mạnh của một model với chi phí lưu trữ ít hơn so với một model chính hiệu.
 
-Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài. Nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766):  
+Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài. Nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766):
 
-<div class="row">
+<good>
+```c
+{% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="300" height="300" %}
+```
+</good>
+<bad>
+```c
+{% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="300" height="300" %}
+```
+</bad>
+
+<!-- <div class="row">
   <div class="col-md-4" markdown="1">
   {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="300" height="300" %}
   </div>
   <div class="col-md-8" markdown="1">
   {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="300" height="300" %}
   </div>
-</div>
+</div> -->
 
 # Cách khống chế LoRA theo từng Block
 
