@@ -30,18 +30,9 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 |---
 | ![hehe](https://i.imgur.com/9tpdYu1.png) | | ![hehe](https://i.imgur.com/pRQBxz1.png)
-|-|-|-
+|:--:|:--:|:--:
 | Không dùng LoRA, model không hiểu áo dài là gì | | Có dùng LoRA áo dài
 |---
-
-<!-- <div class="row">
-  <div class="col-md-4" markdown="1">
-  {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="500" height="500" %}
-  </div>
-  <div class="col-md-8" markdown="1">
-  {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="500" height="500" %}
-  </div>
-</div> -->
 
 # Cách khống chế LoRA theo từng Block
 
@@ -53,16 +44,10 @@ Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là d�
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
-<!-- |---
+|---
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
 | BASE | IN01 | IN02 | IN04 | IN05 | IN07 | IN08 | MID | OUT03 | OUT04 | OUT05 | OUT06 | OUT07 | OUT08 | OUT09 | OUT10 | OUT11 
-|--- -->
-
-|---
-| 1 | 2 | 3 
-|-|-|-
-| BASE | IN01 | IN02
 |---
 {:.mbtablestyle}
 
