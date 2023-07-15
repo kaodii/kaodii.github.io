@@ -7,7 +7,6 @@ categories:
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
-toc: true
 ---
 
 <style>
@@ -28,7 +27,8 @@ Một LoRA Sư nào đó đã từng nói:
 Trong bài viết này, mình sẽ giới thiệu với các bạn một công cụ không thể thiếu để sử dụng hết toàn bộ khả năng của một LoRA, đó là LoRA Block Weight.
 
 # Mục lục
-{{ content | toc_only }}
+* toc
+{:toc}
 
 # LoRA là gì
 
@@ -52,7 +52,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là dùng cú pháp như sau:
 
-**</<r>lora</r>:<g>lora_name</g>:<o>weight</o>/>**
+**< <r>lora</r>:<g>lora_name</g>:<o>weight</o> >**
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
@@ -84,17 +84,17 @@ Ví dụ như việc thay đổi weight của các block về cấu trúc có th
 
 Với bản LoRA mặc định trên AUTO1111, bạn hoàn toàn có thể điều chỉnh tay toàn bộ các weight theo cú pháp sau:
 
-**<<r>lora</r>:<g>lora_name</g>:<b>weight chung</b>:weight riêng cho từng block>**
+**< <r>lora</r>:<g>lora_name</g>:<o>weight chung</o>:weight riêng cho từng block >**
 
-vd: ***<lora:Doraemon_lora:0.7:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0>***
+vd: **< <r>lora</r>:<g>lora_doraemon</g>:<o>0.7</o>:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0 >**
 
-Hmm, có vẻ hơi nhức đầu rồi!     o(￣┰￣*)ゞ
+😭 Hmm, có vẻ hơi nhức đầu rồi! 😭     o(￣┰￣*)ゞ
 
 Trên thực tế, điều chỉnh như thế là không ổn vì điều chỉnh chi tiết từng block một như thế không đem lại hiệu quả rõ rệt. Nếu bạn để ý thì 17 block của LoRA được chia thành 3 nhóm chính là BASE, IN, OUT. Do đó, để có hiệu quả rõ rệt, chúng ta phải điều chỉnh toàn một cụm các block chứ không nên điều chỉnh lẻ tẻ từng block như thế.
 
 ví dụ: để chỉ sử dụng các **block IN** và không dùng các block khác, ta sẽ set 7 block đầu với weight là 1 và tắt toàn bộ các block khác bằng cách gán weight là 0. Ví dụ:
 
-***<lora:Doraemon_lora:0.7:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0>***
+**< <r>lora</r>:<g>lora_doraemon</g>:<o>0.7</o>:1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0 >**
 
 Tuy nhiên, cách làm này vẫn quá rườm rà và đau não rồi! Do đó mình sẽ giới thiệu một extension giúp bạn làm công việc trên một cách gọn gàng hơn!
 
@@ -114,7 +114,7 @@ Extension **LoRA Block Weight** giúp bạn thay đổi thông số block của 
 
 Cấu trúc của LoRA khi dùng extension vẫn là
 
-***<lora:"lora name":weight chung:weight riêng cho từng block>***
+**< <r>lora</r>:<g>lora_name</g>:<o>weight chung</o>:weight riêng cho từng block >**
 
 nhưng lúc này thay vì phải gán từng weight một cho từng block, extension này hỗ trợ bạn set tham số dễ dàng hơn bằng cách đặt “biệt danh (alias)” cho từng nhóm weight. Hiện tại, extension có sẵn các nhóm sau:
 
@@ -132,7 +132,7 @@ ALL0.5:0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
 
 Khi đó bạn chỉ cần thêm alias vào là được. Ví dụ
 
-***<lora:Doraemon_lora:0.7:MIDD>***
+**< <r>lora</r>:<g>lora_doraemon</g>:<o>0.7</o>:MIDD >**
 
 Ngoài những alias có sẵn, bạn cũng có thể tự tạo cho mình các alias yêu thích và lưu lại chúng vào extension này và sử dụng.
 
@@ -148,7 +148,7 @@ Như mọi khi, để có thể so sánh các kết quả một cách tiện l�
 
 Ở phần LoRA, bạn chỉ cần thêm XYZ vào sau weight là được
 
-<lora:Doraemon_lora:0.7:**XYZ**>
+**< <r>lora</r>:<g>lora_doraemon</g>:<o>0.7</o>:XYZ >**
 
 Riêng mình chủ yếu chỉ so sánh Original Weights thôi vì nó giúp ta nắm bắt nhanh nhất ở Block nào thì LoRA hoạt động như ý nhất. Tất nhiên ngoài ra còn có nhiều thông số khác mà bạn có thể tự tìm hiểu thêm (thực ra thì nó cũng có giới thiệu sơ trong [github của extension](https://github.com/hako-mikan/sd-webui-lora-block-weight)).
 
