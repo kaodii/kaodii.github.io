@@ -46,7 +46,8 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 | Không dùng LoRA |  | Có dùng LoRA áo dài
 |---
 
-
+💖
+\\
 # Cách khống chế LoRA theo từng Block
 
 ## Cách dùng thông dụng
@@ -134,6 +135,15 @@ ALL0.5:0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
 Khi đó bạn chỉ cần thêm alias vào là được. Ví dụ
 
 **< <r>lora</r>:<g>lora_doraemon</g>:<o>0.7</o>:MIDD >**
+
+|---
+| ![hehe](https://i.imgur.com/qZliCrw.png) |  | ![hehe](https://i.imgur.com/EgsbtBp.png)
+|:--:|:--:|:--:
+| Dùng weight IND |  | Dùng weight OUTD
+|---
+
+💖
+\\
 
 Ngoài những alias có sẵn, bạn cũng có thể tự tạo cho mình các alias yêu thích và lưu lại chúng vào extension này và sử dụng.
 
