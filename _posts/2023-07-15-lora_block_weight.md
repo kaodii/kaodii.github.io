@@ -34,11 +34,15 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 | Không dùng LoRA, model không hiểu áo dài là gì | | Có dùng LoRA áo dài
 |---
 
+<img src="https://i.imgur.com/7f4bt1m.png" width="300" height="300" />
+
+<img src="https://i.imgur.com/OiX5aP0.png" width="300" height="300" />
+
 
 |---
-| {% include figure.html image="https://i.imgur.com/7f4bt1m.png" caption="QR Momo 🧧" width="300" height="300" %} |  | {% include figure.html image="https://i.imgur.com/OiX5aP0.png" caption="QR Ngân Hàng 🧧" width="300" height="300" %}
+| <img src="https://i.imgur.com/7f4bt1m.png" width="500" height="500" /> |  | <img src="https://i.imgur.com/OiX5aP0.png" width="500" height="500" />
 |:--:|:--:|:--:
-|  |  |  
+| lmao | lmao |  
 |---
 
 # Cách khống chế LoRA theo từng Block
