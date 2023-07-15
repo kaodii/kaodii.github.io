@@ -7,6 +7,7 @@ categories:
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
+toc: true
 ---
 
 <style>
@@ -50,7 +51,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là dùng cú pháp như sau:
 
-***<<r>lora</r>:<g>lora_name</g>:<b>weight</b>>***
+**<<r>lora</r>:<g>lora_name</g>:<b>weight</b>>**
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
@@ -82,7 +83,7 @@ Ví dụ như việc thay đổi weight của các block về cấu trúc có th
 
 Với bản LoRA mặc định trên AUTO1111, bạn hoàn toàn có thể điều chỉnh tay toàn bộ các weight theo cú pháp sau:
 
-***<<r>lora</r>:<g>lora_name</g>:<b>weight chung</b>:weight riêng cho từng block>***
+**<<r>lora</r>:<g>lora_name</g>:<b>weight chung</b>:weight riêng cho từng block>**
 
 vd: ***<lora:Doraemon_lora:0.7:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0>***
 
