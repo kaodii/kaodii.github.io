@@ -47,7 +47,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 |---
 
 💖
-\\
+
 # Cách khống chế LoRA theo từng Block
 
 ## Cách dùng thông dụng
@@ -143,7 +143,6 @@ Khi đó bạn chỉ cần thêm alias vào là được. Ví dụ
 |---
 
 💖
-\\
 
 Ngoài những alias có sẵn, bạn cũng có thể tự tạo cho mình các alias yêu thích và lưu lại chúng vào extension này và sử dụng.
 
@@ -163,9 +162,9 @@ Như mọi khi, để có thể so sánh các kết quả một cách tiện l�
 
 Riêng mình chủ yếu chỉ so sánh Original Weights thôi vì nó giúp ta nắm bắt nhanh nhất ở Block nào thì LoRA hoạt động như ý nhất. Tất nhiên ngoài ra còn có nhiều thông số khác mà bạn có thể tự tìm hiểu thêm (thực ra thì nó cũng có giới thiệu sơ trong [github của extension](https://github.com/hako-mikan/sd-webui-lora-block-weight)).
 
-Ví dụ, khi sử dụng Extension trên cho LoRA áo dài, ta có kết quả sau:
+Ví dụ, khi sử dụng XYZ Plot cho LoRA áo dài, ta có kết quả sau:
 
-![Untitled](https://i.imgur.com/Wb8g7gQ.jpg)
+![Untitled](https://i.imgur.com/cDv4QU0.png)
 
 Có thể thấy rõ ràng rằng **khi sử dụng các weight khác nhau cho các block sẽ ảnh hưởng đến chất lượng của bức ảnh**. Ví dụ trên cho ta thấy có những nhóm block hoạt động tốt hơn các nhóm còn lại.
 
@@ -185,12 +184,12 @@ Sử dụng kĩ thuật này, ta hoàn toàn có thể tự tin khi sử dụng 
 > Dùng ZYX: 0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1
 
 - **Đừng set batch size lớn hơn 1**, nếu không extension sẽ không hoạt động
-- Hiện tại extension này *bị lỗi nếu dùng chung với Composable Lora và Additional Networks**. Do đó khi dùng extension này, hãy tắt 2 cái kia đi.
+- Hiện tại extension này **bị lỗi nếu dùng chung với Composable Lora và Additional Networks**. Do đó khi dùng extension này, hãy tắt 2 cái kia đi.
 
 # Lời kết
 
 LoRA là một bước tiến tuyệt vời đối với Stable Diffusion vì sức mạnh mà nó mang lại. Thế nhưng để sử dụng nó một cách tốt nhất thì Extension này là một thứ không thể thiếu, giúp ta có thể nắm được hoàn toàn sức mạnh của LoRA. Hi vọng bài viết này có thể đem lại cho mọi người những kiến thức hữu ích để sử dụng LoRA mà không lo kết quả không ưng ý!
 
-Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.
+**Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.**
 
 **Một lần nữa cám ơn mọi người đã ủng hộ Blog Stable Diffusion Cơ Bản. Hẹn gặp lại mọi người trong các bài viết tới!!!**
