@@ -9,6 +9,13 @@ indexing: false
 comments: true
 toc: true
 ---
+
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
 # Lời nói đầu
 <!-- {:.no_toc} -->
 Bạn train cho mình một LoRA nhưng không đẹp như người ta? Bạn thấy người khác cũng dùng cùng LoRA như mình nhưng hình tạo ra lại đẹp hơn? 
@@ -19,8 +26,12 @@ Một LoRA Sư nào đó đã từng nói:
 
 Trong bài viết này, mình sẽ giới thiệu với các bạn một công cụ không thể thiếu để sử dụng hết toàn bộ khả năng của một LoRA, đó là LoRA Block Weight.
 
+- <r>TODO:</r> Important thing to do
+- <o>TODO:</o> Less important thing to do
+- <g>DONE:</g> Breath deeply and improve karma
+
 # Mục lục
-{% toc %}
+{{ content | toc_only }}
 
 # LoRA là gì
 
