@@ -155,6 +155,8 @@ Ví dụ, khi sử dụng Extension trên cho LoRA áo dài, ta có kết quả 
 
 ![Untitled](https://i.imgur.com/Wb8g7gQ.jpg)
 
+{% include figure.html image="https://i.imgur.com/Wb8g7gQ.jpg" width="1500" height="1500" %}
+
 Có thể thấy rõ ràng rằng khi sử dụng các weight khác nhau cho các block sẽ ảnh hưởng đến chất lượng của bức ảnh. Ví dụ trên cho ta thấy có những nhóm block hoạt động tốt hơn các nhóm còn lại.
 
 Sử dụng kĩ thuật này, ta hoàn toàn có thể tự tin khi sử dụng bất kì LoRA nào. 
