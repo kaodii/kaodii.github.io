@@ -38,7 +38,7 @@ LoRA *(LowRank-Adaptation of Large Language Model)*, có thể hiểu đơn gi�
 
 > Có thể nói, LoRA đem đến cho bạn sức mạnh của một model với chi phí lưu trữ ít hơn so với một model chính hiệu.
 
-Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766). Ảnh không dùng LoRA, do không được train nên sẽ không hiểu "áo dài" là gì nên sẽ cho kết quả không như mong đợi:
+Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766). Ảnh không dùng LoRA, do không được train nên sẽ không hiểu "áo dài" là gì, từ đó sẽ cho kết quả không như mong đợi:
 
 |---
 | ![hehe](https://i.imgur.com/9tpdYu1.png) |  | ![hehe](https://i.imgur.com/pRQBxz1.png)
@@ -46,14 +46,16 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 | Không dùng LoRA |  | Có dùng LoRA áo dài
 |---
 
-\\
+
 # Cách khống chế LoRA theo từng Block
 
 ## Cách dùng thông dụng
 
 Trước giờ, cách thông thường khi dùng LoRA là gì? Đó chính là dùng cú pháp như sau:
 
-**< <r>lora</r>:<g>lora_name</g>:<o>weight</o> >**
+**<
+<r>lora</r>:<g>lora_name</g>:<o>weight</o>
+>**
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, **<r>LoRA được chia thành 17 phần (block)</r>**, bao gồm:
 
