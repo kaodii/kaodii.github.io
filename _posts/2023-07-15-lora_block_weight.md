@@ -17,7 +17,8 @@ Một LoRA Sư nào đó đã từng nói:
 
 Trong bài viết này, mình sẽ giới thiệu với các bạn một công cụ không thể thiếu để sử dụng hết toàn bộ khả năng của một LoRA, đó là LoRA Block Weight.
 
-{:toc}
+# Mục lục
+{% toc %}
 
 # LoRA là gì
 
