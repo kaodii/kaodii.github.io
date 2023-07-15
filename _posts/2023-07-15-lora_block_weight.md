@@ -53,11 +53,24 @@ Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một
 | BASE | IN01 | IN02 | IN04 | IN05 | IN07 | IN08 | MID | OUT03 | OUT04 | OUT05 | OUT06 | OUT07 | OUT08 | OUT09 | OUT10 | OUT11 
 |--- -->
 
-|---
+<!-- |---
 | 1 | 2 | 3 
 |-|-|-
 | BASE | IN01 | IN02
+|--- -->
+
+
 |---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row
 
 Và với LyCoris thì còn nhiều hơn nữa, tận 26 blocks.
 
