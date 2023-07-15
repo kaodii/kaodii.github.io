@@ -28,6 +28,10 @@ Có thể nói, LoRA đem đến cho bạn sức mạnh của một model với 
 
 Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một prompt để miêu tả một cô gái mặc áo dài. Nhưng một ảnh không dùng LoRA và một ảnh có dùng [LoRA áo dài](https://civitai.com/models/16766):
 
+|---
+| {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="500" height="500" %} | {% include figure.html image="https://i.imgur.com/pRQBxz1.png" caption="Có dùng LoRA áo dài" width="500" height="500" %} | 
+|---
+
 <div class="row">
   <div class="col-md-4" markdown="1">
   {% include figure.html image="https://i.imgur.com/9tpdYu1.png" caption="Không dùng LoRA, model không hiểu áo dài là gì" width="500" height="500" %}
