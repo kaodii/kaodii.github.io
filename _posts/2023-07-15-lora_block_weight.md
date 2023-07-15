@@ -7,6 +7,8 @@ categories:
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
+aside: true
+toc: true
 ---
 # Lời nói đầu
 

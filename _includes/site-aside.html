@@ -3,6 +3,8 @@
   {% if page.layout == "post" %}
     <section class="section  section--related-posts">
       {% include post-related.html %}
+      <h5>Mục lục</h5>
+      {{ content | toc_only }}
     </section>
   
   {% elsif page.layout == "ebooks" %}
