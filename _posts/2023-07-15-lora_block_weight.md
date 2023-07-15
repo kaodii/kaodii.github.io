@@ -45,6 +45,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 |:--:|:--:|:--:
 | Không dùng LoRA |  | Có dùng LoRA áo dài
 |---
+
 \\
 # Cách khống chế LoRA theo từng Block
 
