@@ -7,7 +7,6 @@ categories:
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
-toc: true
 ---
 
 <style>
@@ -25,10 +24,6 @@ Một LoRA Sư nào đó đã từng nói:
 > “Chỉ có người dùng phế, không có LoRA phế!”
 
 Trong bài viết này, mình sẽ giới thiệu với các bạn một công cụ không thể thiếu để sử dụng hết toàn bộ khả năng của một LoRA, đó là LoRA Block Weight.
-
-- <r>TODO:</r> Important thing to do
-- <o>TODO:</o> Less important thing to do
-- <g>DONE:</g> Breath deeply and improve karma
 
 # Mục lục
 {{ content | toc_only }}
@@ -55,7 +50,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là dùng cú pháp như sau:
 
-***<lora:lora_name:weight>***
+***<<r>lora</r>:<g>lora_name</g>:<b>weight</b>>***
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
@@ -66,6 +61,7 @@ Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một
 |---
 {:.mbtablestyle}
 
+\\
 Và với LyCoris thì còn nhiều hơn nữa, tận 26 blocks.
 
 Điều đó có nghĩa gì?  
@@ -86,7 +82,7 @@ Ví dụ như việc thay đổi weight của các block về cấu trúc có th
 
 Với bản LoRA mặc định trên AUTO1111, bạn hoàn toàn có thể điều chỉnh tay toàn bộ các weight theo cú pháp sau:
 
-***<lora:lora_name:weight chung:weight riêng cho từng block>***
+***<<r>lora</r>:<g>lora_name</g>:<b>weight chung</b>:weight riêng cho từng block>***
 
 vd: ***<lora:Doraemon_lora:0.7:0,0,1,0,0,1.3,0.7,1,0,0.1,1,0.4,1,0,0,0,0>***
 
