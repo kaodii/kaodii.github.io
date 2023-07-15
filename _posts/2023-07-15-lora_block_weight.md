@@ -3,9 +3,11 @@ title: Dùng LoRA hiệu quả với LoRA Block Weight
 categories:
 - Hướng dẫn
 - Extension hay
+- LoRA
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
+toc: true
 ---
 # Lời nói đầu
 <!-- {:.no_toc} -->
