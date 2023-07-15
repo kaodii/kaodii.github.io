@@ -10,7 +10,7 @@ comments: true
 toc: true
 ---
 # Lời nói đầu
-
+{:.no_toc}
 Bạn train cho mình một LoRA nhưng không đẹp như người ta? Bạn thấy người khác cũng dùng cùng LoRA như mình nhưng hình tạo ra lại đẹp hơn? 
 
 Một LoRA Sư nào đó đã từng nói: 
@@ -21,7 +21,7 @@ Trong bài viết này, mình sẽ giới thiệu với các bạn một công c
 
 ## Mục lục
 
-{ :toc }
+{:toc}
 
 # LoRA là gì
 
