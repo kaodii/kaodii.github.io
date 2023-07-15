@@ -14,6 +14,7 @@ toc: true
 r { color: Red }
 o { color: Orange }
 g { color: Green }
+b { color: Blue }
 </style>
 
 # Lời nói đầu
@@ -51,7 +52,7 @@ Trong ví dụ bên dưới, 2 hình ảnh này được tạo bởi cùng một
 
 Trước giờ cách thông thường khi dùng LoRA là gì? Đó chính là dùng cú pháp như sau:
 
-**<<r>lora</r>:<g>lora_name</g>:<b>weight</b>>**
+**</<r>lora</r>:<g>lora_name</g>:<o>weight</o>/>**
 
 Nhưng nếu đi sâu hơn một chút về LoRA, bạn sẽ thấy LoRA - một mini model - không phải chỉ có một cục weight như thế. Thực tế, LoRA được chia thành 17 phần (block), bao gồm:
 
