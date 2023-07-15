@@ -7,8 +7,6 @@ categories:
 feature_image: "https://i.imgur.com/ICcTPmH.png"
 indexing: false
 comments: true
-aside: true
-toc: true
 ---
 # Lời nói đầu
 
@@ -19,6 +17,10 @@ Một LoRA Sư nào đó đã từng nói:
 > “Chỉ có người dùng phế, không có LoRA phế!”
 
 Trong bài viết này, mình sẽ giới thiệu với các bạn một công cụ không thể thiếu để sử dụng hết toàn bộ khả năng của một LoRA, đó là LoRA Block Weight.
+
+## Mục lục
+
+{ :toc }
 
 # LoRA là gì
 
