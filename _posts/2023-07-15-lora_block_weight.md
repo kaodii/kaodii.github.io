@@ -190,6 +190,10 @@ Sử dụng kĩ thuật này, ta hoàn toàn có thể tự tin khi sử dụng 
 
 LoRA là một bước tiến tuyệt vời đối với Stable Diffusion vì sức mạnh mà nó mang lại. Thế nhưng để sử dụng nó một cách tốt nhất thì Extension này là một thứ không thể thiếu, giúp ta có thể nắm được hoàn toàn sức mạnh của LoRA. Hi vọng bài viết này có thể đem lại cho mọi người những kiến thức hữu ích để sử dụng LoRA mà không lo kết quả không ưng ý!
 
+# Tham khảo
+- [Github Extension LoRA Block Weight](https://github.com/hako-mikan/sd-webui-lora-block-weight){:target="_blank"}
+- [Reddit - Block weights: Give LoRA a second breath](https://www.reddit.com/r/StableDiffusion/comments/11izvoj/block_weights_give_lora_a_second_breath/){:target="_blank"}
+
 **Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.**
 
 **Một lần nữa cám ơn mọi người đã ủng hộ Blog Stable Diffusion Cơ Bản. Hẹn gặp lại mọi người trong các bài viết tới!!!**
