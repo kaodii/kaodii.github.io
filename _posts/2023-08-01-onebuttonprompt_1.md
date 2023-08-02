@@ -203,7 +203,7 @@ Gender, tất nhiên là **female** rồi!
 
 Và đây là kết quả của chúng ta!!!
 
-{% include figure.html image="https://i.imgur.com/x3ZD7AA.png" caption="((best quality)) , ((masterpiece)) , (detailed) , (memorable picture:1.2) , (half body) , aodai, HDR, Cathode tube, underpainting, acrylic painting, Cold girl with curly short hair wearing aodai, Sepia filter, Accent lighting, Best quality, Arts and Crafts Movement,It's all coming back to me now, Monochromatic Rust filter, (nostalgia:1.2) , < lora:a0d4ivn:0.5 >" width="500" height="800" %} 
+{% include figure.html image="https://i.imgur.com/x3ZD7AA.png" caption="((best quality)) , ((masterpiece)) , (detailed) , (memorable picture:1.2) , (half body) , aodai, HDR, Cathode tube, underpainting, acrylic painting, Cold girl with curly short hair wearing aodai, Sepia filter, Accent lighting, Best quality, Arts and Crafts Movement,It's all coming back to me now, Monochromatic Rust filter, (nostalgia:1.2) , < lora:a0d4ivn:0.5 >" %} 
 
 {% include figure.html image="https://i.imgur.com/L5u1YPG.png" caption="(masterpieces:1.2) , (memorable picture:1.2) , (half body) , aodai, digital art, Unexpected Bantu girl with curly short hair wearing aodai, Junglecore, studio lighting, Light streaks, (nostalgia:1.2) , < lora:a0d4ivn:0.6 >" width="500" height="800" %}
 
