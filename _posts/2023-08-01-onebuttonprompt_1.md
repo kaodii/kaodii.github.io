@@ -3,7 +3,7 @@ title: Vô tận prompt chỉ với một cú click với OneButtonPrompt (P1)
 categories:
 - Hướng dẫn
 - Extension hay
-feature_image: "https://i.imgur.com/ICcTPmH.png"
+feature_image: "https://i.imgur.com/tlzwqCa.png"
 indexing: false
 comments: true
 ---
@@ -13,7 +13,7 @@ comments: true
 
 Bạn quá lười viết prompt? Bạn muốn tạo ra thật nhiều prompt đa dạng mà không cần phải ngồi suy nghĩ? Bạn muốn test một model nhanh chóng bằng cách sử dụng đa dạng các prompt nhưng quá mất thời gian?
 
-> Có làm thì mới có ăn, không muốn viết prompt mà còn muốn có ảnh đẹp thì chỉ có…
+> Có làm thì mới có ăn, không muốn viết prompt mà muốn có ảnh đẹp thì…
 
 **ẤY VẬY MÀ CÓ THẬT ĐẤY!!!**
 
@@ -105,7 +105,7 @@ Và còn khá nhiều style khác với vô vàn prompt kèm theo hứa hẹn đ
 
 Nếu muốn biết thêm về các style, bạn chỉ cần tải extension về và kéo xuống bên dưới xem hướng dẫn. Hay bạn cũng có thể xem hình mẫu của các style ở [**chỗ này**](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/prompt_generation_modes.md){:target="_blank"}.
 
-### **One in X chance to use special image type mode (cứ X ảnh được tạo ra thì có một ảnh sẽ dùng prompt đặc biệt)**
+### One in X chance to use special image type mode (cứ X ảnh được tạo ra thì có một ảnh sẽ dùng prompt đặc biệt)
 
 ![aa](https://i.imgur.com/9Jk2JRK.png)
 
@@ -118,11 +118,11 @@ Nếu muốn biết thêm về các style, bạn chỉ cần tải extension v�
 
 **Số càng lớn là xác suất càng nhỏ**, ví dụ số 3 nghĩa là trung bình 3 prompt được tạo ra mới có một prompt độc lạ. Còn 100 nghĩa là 100 prompt mới có 1 tấm chứa prompt độc lạ.
 
-### **Overwrite subject (Ghi đè lên chủ đề)**
+### Overwrite subject (Ghi đè lên chủ đề)
 
 ![aa](https://i.imgur.com/HN1eN5V.png)
 
-Bạn thấy chủ đề quá ít và thứ bạn cần không có trong đó? Hãy sử dụng bất kì chủ đề mình muốn và điền vào phần Overwrite subject, nó sẽ ghi đè lên phần subject mà bạn đã chọn.
+Bạn thấy chủ đề quá ít và thứ bạn cần không có trong đó? Hãy sử dụng bất kì chủ đề mình muốn và điền vào phần **Overwrite subject**, nó sẽ ghi đè lên phần subject mà bạn đã chọn.
 
 Nhưng để đạt được hiệu quả tốt nhất, bạn hãy điền vào những thứ gần với thể loại được chọn.
 
@@ -135,13 +135,13 @@ Ví dụ bạn muốn chọn chủ đề ghi đè là
 
 Và với ví dụ bên trên, nếu bạn tick vào ô **Smart subject**, nó sẽ có tính năng phân biệt những gì bạn nhập vào để không tạo ra sự trùng lặp. 
 
-Ví dụ bên trên chúng ta có thêm **thông tin về mái tóc và trang phục**, extension sẽ tự nhận ra và không tạo ra thêm prompt về trang phục và tóc nữa.
+Ở ví dụ bên trên chúng ta có thêm **thông tin về mái tóc và trang phục**, extension sẽ tự nhận ra và không tạo ra thêm prompt về trang phục và tóc nữa.
 
 ![aa](https://i.imgur.com/fkCwtiF.jpg)
 
 ### Các ô còn lại
 
-Khi dùng extension này thì ô prompt và negative prompt của Automatic1111 sẽ bị bỏ qua, Automatic1111 sẽ **chỉ sử dụng prompt và negative prompt được tạo ra bởi extension**. Do đó, các ô tiếp theo này rất quan trọng.
+Khi dùng extension này thì ô **prompt và negative prompt của Automatic1111 sẽ bị bỏ qua**, Automatic1111 sẽ **chỉ sử dụng prompt và negative prompt được tạo ra bởi extension**. Do đó, các ô tiếp theo này rất quan trọng.
 
 ![aa](https://i.imgur.com/sAbo1QR.png)
 
