@@ -12,7 +12,7 @@ toc: true
 
 #### Cài đặt và khởi động
 
-Bắt đầu với Stable Diffusion (Coming soon...)
+[Stable Diffusion cho người mới bắt đầu](https://docs.google.com/document/d/1plVW9XbaMCHN-dxPmE8p9YBa2aLwAL4g5m3F5eIkXeE/edit?usp=sharing){:target="_blank"}
 
 [Cách cài đặt Stable Diffusion](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing){:target="_blank"}
 
