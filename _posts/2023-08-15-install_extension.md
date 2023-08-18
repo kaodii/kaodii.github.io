@@ -89,7 +89,7 @@ B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
 
 ## Cài đặt Additional Networks
 
-Để sử dụng Additional Networks, bạn phải đưa cho Extension LoRA để nó có thể sử dụng. Và có 2 cách để làm điều đó.
+Để sử dụng Additional Networks, bạn phải thêm LoRA cho Extension thì mới có thể sử dụng. Và có 2 cách để làm điều đó.
 
 **Cách 1:** Đặt các LoRA vào trong thư mục ***stable-diffusion-webui\extensions\sd-webui-additional-networks/models/LoRA***. Sau đó nhấn nút Reload để tải LoRA lên
 
