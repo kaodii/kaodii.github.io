@@ -31,21 +31,14 @@ Có 2 cách chính để cài đặt Extension, một là cài đặt thông qua
 
 ## Cài đặt thông qua Extensions Store
 
-B1: Chọn Tab Extension
-
-B2: Chọn Tab Available
-
-B3: Nhấn nút Load from
-
-B4: Tìm Extension mong muốn trong ô Search
-
-B5: Nhấp Install và chờ đợi
-
-B6: Trở về tab Installed
-
-B7: Nhấn nút Check for update
-
-B8: Nhấn Apply and restart UI
+- B1: Chọn Tab Extension
+- B2: Chọn Tab Available
+- B3: Nhấn nút Load from
+- B4: Tìm Extension mong muốn trong ô Search
+- B5: Nhấp Install và chờ đợi
+- B6: Trở về tab Installed
+- B7: Nhấn nút Check for update
+- B8: Nhấn Apply and restart UI
 
 {% include figure.html image="https://i.imgur.com/VOok34F.png" caption="Cài đặt từ Extension Stores" %}
 
@@ -55,19 +48,13 @@ B8: Nhấn Apply and restart UI
 
 Tất nhiên cách này rủi ro hơn một chút so với việc cài đặt các Extension đã qua kiểm định trong Extensions Store
 
-B1: Chọn Tab Extension
-
-B2: Chọn Tab Install from URL
-
-B3: Copy link github và paste vào ô URL for extension's git repository
-
-B4: Nhấp Install và chờ đợi
-
-B5: Trở về tab Installed
-
-B6: Nhấn nút Check for update
-
-B7: Nhấn Apply and restart UI
+- B1: Chọn Tab Extension
+- B2: Chọn Tab Install from URL
+- B3: Copy link github và paste vào ô URL for extension's git repository
+- B4: Nhấp Install và chờ đợi
+- B5: Trở về tab Installed
+- B6: Nhấn nút Check for update
+- B7: Nhấn Apply and restart UI
 
 {% include figure.html image="https://i.imgur.com/jV0QRUv.png" caption="Cài đặt trực tiếp từ Github" %}
 
@@ -79,13 +66,10 @@ Sau khi thực hiện những bước trên, một số Extensions yêu cầu ta
 
 Sau khi cài đặt theo các bước bên trên, ta phải tải thêm các model weight cho ControlNet thì mới có thể sử dụng nó
 
-B1: Truy cập đường dẫn đến [link các model trên HuggingFace](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main){:target="_blank"}
-
-B2: Tải các model files có đuôi ***.pth***
-
-B3: Đặt các model bạn vừa tải vào thư mục ***stable-diffusion-webui\extensions\sd-webui-controlnet\models*** . Lưu ý là các file ***.yaml*** đã có sẵn nên chỉ cần tải các files ***.pth***
-
-B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
+- B1: Truy cập đường dẫn đến [link các model trên HuggingFace](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main){:target="_blank"}
+- B2: Tải các model files có đuôi ***.pth***
+- B3: Đặt các model bạn vừa tải vào thư mục ***stable-diffusion-webui\extensions\sd-webui-controlnet\models*** . Lưu ý là các file ***.yaml*** đã có sẵn nên chỉ cần tải các files ***.pth***
+- B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
 
 ## Cài đặt Additional Networks
 
@@ -97,7 +81,7 @@ B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
 
 - B1: Vào Setting
 - B2: Kéo xuống tab Additional Networks
-- B3: Tại ô đầu tiên Extra paths to scan for LoRA models, hãy điền đường dẫn của LoRA vào đây, thông thường nó sẽ là ***stable-diffusion-webui\models\Lora***
+- B3: Tại ô đầu tiên ***Extra paths to scan for LoRA models***, hãy điền đường dẫn của LoRA vào đây, thông thường nó sẽ là ***stable-diffusion-webui\models\Lora***
 
 **Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.**
 
