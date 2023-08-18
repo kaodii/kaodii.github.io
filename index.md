@@ -13,7 +13,7 @@ Lần đầu đến với Blog này? Hãy xem qua phần giới thiệu Blog ở
 
 Muốn bắt đầu sử dụng Stable Diffusion mà không biết bắt đầu từ đâu, hãy đọc ở [đây.](https://docs.google.com/document/d/1plVW9XbaMCHN-dxPmE8p9YBa2aLwAL4g5m3F5eIkXeE/edit?usp=sharing){:target="_blank"}
 
-Nếu bạn thấy các bài viết của mình là hữu ích có thể DONATE mình một ly caffe ở [đây nhé!]({{ site.baseurl }}{% link donate.md %})
+Nếu bạn thấy các bài viết của mình là hữu ích có thể DONATE mình một ly caffe nhé 💕
 
 {% include button.html text="Buy me a coffee ☕️" link="https://sdcoban.vn/donate" color="#f68140" %}
 

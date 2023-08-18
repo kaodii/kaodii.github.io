@@ -47,9 +47,9 @@ B7: Nhấn nút Check for update
 
 B8: Nhấn Apply and restart UI
 
-{% include figure.html image="https://i.imgur.com/VOok34F.png" caption="Cài đặt từ Extension Stores" width="300" height="800" %}
+{% include figure.html image="https://i.imgur.com/VOok34F.png" caption="Cài đặt từ Extension Stores" %}
 
-{% include figure.html image="https://i.imgur.com/pZYNpop.png" caption="Reload lại UI" width="300" height="800" %}
+{% include figure.html image="https://i.imgur.com/pZYNpop.png" caption="Reload lại UI" %}
 
 ## Cài đặt trực tiếp từ Github
 
@@ -69,7 +69,7 @@ B6: Nhấn nút Check for update
 
 B7: Nhấn Apply and restart UI
 
-{% include figure.html image="https://i.imgur.com/jV0QRUv.png" caption="Cài đặt trực tiếp từ Github" width="300" height="800" %}
+{% include figure.html image="https://i.imgur.com/jV0QRUv.png" caption="Cài đặt trực tiếp từ Github" %}
 
 # Cài một số Extension đặc biệt
 
@@ -79,11 +79,11 @@ Sau khi thực hiện những bước trên, một số Extensions yêu cầu ta
 
 Sau khi cài đặt theo các bước bên trên, ta phải tải thêm các model weight cho ControlNet thì mới có thể sử dụng nó
 
-B1: Truy cập đường dẫn đến [link các model trên HuggingFace](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
+B1: Truy cập đường dẫn đến [link các model trên HuggingFace](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main){:target="_blank"}
 
-B2: Tải các model files có đuôi `.pth`
+B2: Tải các model files có đuôi ***.pth***
 
-B3: Đặt các model bạn vừa tải vào thư mục `stable-diffusion-webui\extensions\sd-webui-controlnet\models` . Lưu ý là các file `.yaml` đã có sẵn nên chỉ cần tải các files `.pth`
+B3: Đặt các model bạn vừa tải vào thư mục ***stable-diffusion-webui\extensions\sd-webui-controlnet\models*** . Lưu ý là các file ***.yaml*** đã có sẵn nên chỉ cần tải các files ***.pth***
 
 B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
 
@@ -91,13 +91,13 @@ B4: Tại Tab ControlNet, nhấn nút Reload để tải các model lên
 
 Để sử dụng Additional Networks, bạn phải đưa cho Extension LoRA để nó có thể sử dụng. Và có 2 cách để làm điều đó.
 
-Cách 1: Đặt các LoRA vào trong thư mục `stable-diffusion-webui\extensions\sd-webui-additional-networks/models/LoRA`. Sau đó nhấn nút Reload để tải LoRA lên
+**Cách 1:** Đặt các LoRA vào trong thư mục ***stable-diffusion-webui\extensions\sd-webui-additional-networks/models/LoRA***. Sau đó nhấn nút Reload để tải LoRA lên
 
-Cách 2: Sử dụng thư mục LoRA của chính Automatic1111
+**Cách 2:** Sử dụng thư mục LoRA của chính Automatic1111
 
 - B1: Vào Setting
 - B2: Kéo xuống tab Additional Networks
-- B3: Tại ô đầu tiên Extra paths to scan for LoRA models, hãy điền đường dẫn của LoRA vào đây, thông thường nó sẽ là `“stable-diffusion-webui\models\Lora”`
+- B3: Tại ô đầu tiên Extra paths to scan for LoRA models, hãy điền đường dẫn của LoRA vào đây, thông thường nó sẽ là ***stable-diffusion-webui\models\Lora***
 
 **Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.**
 
