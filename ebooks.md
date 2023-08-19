@@ -32,6 +32,8 @@ toc: true
 
 [Stable Diffusion Prompt Books (Tiếng Anh)](https://openart.ai/promptbook){:target="_blank"}
 
+[Stable Diffusion Prompt Books (Tiếng Việt - Dịch bởi Hà Hải Nam)](https://drive.google.com/file/d/1joOdcN5cqqwcJgUxds3MhB7pQ9EZk6vv/view?usp=sharing){:target="_blank"}
+
 ### Stable Diffusion Nâng Cao
 
 #### Automatic1111 Wiki Việt hóa
