@@ -9,13 +9,22 @@ indexing: false
 comments: true
 ---
 
+# Lời nói đầu
+{:.no_toc}
+
+Bạn tự cài cho mình một phiên bản Stable Diffusion sử dụng UI của Automatic1111, bạn dùng cũng khá ổn, thế nhưng lại thắc mắc sao nhiều người lại có cho mình những chức năng lạ và hữu ích như ControlNet, thay đổi khuôn mặt, chia vùng hình ảnh, video2video, gif2gif, QR code...
+
+> Chẳng lẽ mình cài đặt nhầm phiên bản rồi ta?
+
+Không phải đâu, đó là do bạn chưa cài đặt các Extension cho web UI của mình mà thôi, bài viết này sẽ hướng dẫn bạn cài đặt chúng! 🥳
+
 # Mục lục
 * toc
 {:toc}
 
 # Extension là gì?
 
-Extension là các chương trình được cộng đồng tạo ra và chia sẻ để việc sử dụng Stable Diffusion trở nên thuận tiện hơn. Không những thế, có những extension còn giúp Stable Diffusion khẳng định sức mạnh của mình, khai thác tối đa những gì mà Stable Diffusion có thể mang lại cho người dùng.
+Extension là các chương trình được cộng đồng tạo ra và chia sẻ để việc sử dụng Stable Diffusion trở nên thuận tiện hơn. Không những thế, có những Extension còn giúp Stable Diffusion khẳng định sức mạnh của mình, khai thác tối đa những gì mà Stable Diffusion có thể mang lại cho người dùng.
 
 |---
 | ![hehe](https://i.imgur.com/Cd4Ou2f.png) |  | ![hehe](https://i.imgur.com/7YmrkY3.png)
