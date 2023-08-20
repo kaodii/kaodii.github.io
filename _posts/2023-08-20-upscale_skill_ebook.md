@@ -1,5 +1,5 @@
 ---
-title: [Ebook] Kỹ nghệ Upscale trong Automatic1111
+title: Kỹ nghệ Upscale trong Automatic1111
 categories:
 - Hướng dẫn
 - Tin tức
