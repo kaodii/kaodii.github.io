@@ -42,6 +42,10 @@ toc: true
 #### Automatic1111 - Các Setting hữu ích
 (Coming soon...)
 
+#### Kỹ Nghệ Upscale
+
+[Kỹ nghệ Upscale trong Automatic1111](https://drive.google.com/file/d/1CzJCYWTJdK6o5wo-IPRGyVP2_UIAE_Nq/view?usp=sharing){:target="_blank"}
+
 #### ControlNet
 
 ControlNet Wiki: Preprocessor và Model (Coming soon...)
