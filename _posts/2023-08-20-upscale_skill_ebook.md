@@ -9,7 +9,7 @@ indexing: false
 comments: true
 ---
 
-Một trong những tính năng đặc biệt hữu dụng của Stable Diffusion nói chung và Automatic1111 nói riêng đó chính là tính năng Upscale. Bạn muốn biết thêm về tính năng này, cách sử dụng nó cũng như tìm tòi những workflow giúp Upscale ảnh của mình lên 4K, 8K hay thậm chí hơn thế nữa.
+Một trong những tính năng đặc biệt hữu dụng của Stable Diffusion nói chung và Automatic1111 nói riêng đó chính là tính năng Upscale. Nếu bạn muốn biết thêm về tính năng này, cách sử dụng nó cũng như tìm tòi những workflow giúp Upscale ảnh của mình lên 4K, 8K hay thậm chí hơn thế nữa, hãy đọc Ebook bên dưới.
 
 > Upscale hình ảnh, đặc biệt là ảnh độ phân giải siêu lớn là một bài toán đánh đổi giữa tài nguyên và thời gian.
 
