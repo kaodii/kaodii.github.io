@@ -16,6 +16,8 @@ toc: true
 
 [Cách cài đặt Stable Diffusion](https://docs.google.com/document/d/1AEPM-U1lL4ezi8620KtUhzC6DomZ0ychuh5X9Jw1ZKw/edit?usp=sharing){:target="_blank"}
 
+[Tổng hợp các câu hỏi thường gặp khi dùng Stable Diffusion](https://docs.google.com/document/d/1EcMuz_vDYQhg6a4rjV35Y8uZQsS5GHymSJ69T8Gz5uA/edit?usp=sharing){:target="_blank"}
+
 #### Kiến thức và Cách sử dụng tổng quát
 
 [Chap 1: Tổng quan về Automatic1111](https://drive.google.com/file/d/1q1y4DLwOnqJwi0w6tyI-xfgjZyTZgcpv/view?usp=drive_link){:target="_blank"}
