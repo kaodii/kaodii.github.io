@@ -26,7 +26,7 @@ Prompt là một trong những thứ quan trọng nhất khi dùng các Generati
 
 # Prompt và Negative prompt
 
-Prompt và [**Negative prompt**](https://docs.google.com/document/d/1EcMuz_vDYQhg6a4rjV35Y8uZQsS5GHymSJ69T8Gz5uA/edit#bookmark=id.8tyyl2e6hw3v) là 2 loại prompt dùng trong Stable Diffusion. **Prompt (lời nhắc)** là nơi mà bạn hướng dẫn cho Stable Diffusion tạo ra ảnh theo ý muốn. Còn **Negative prompt (lời nhắc ngược)** là nơi mà bạn điền những thứ không muốn Stable Diffusion tạo ra. 
+Prompt và [**Negative prompt**](https://docs.google.com/document/d/1EcMuz_vDYQhg6a4rjV35Y8uZQsS5GHymSJ69T8Gz5uA/edit#bookmark=id.8tyyl2e6hw3v){:target="_blank"} là 2 loại prompt dùng trong Stable Diffusion. **Prompt (lời nhắc)** là nơi mà bạn hướng dẫn cho Stable Diffusion tạo ra ảnh theo ý muốn. Còn **Negative prompt (lời nhắc ngược)** là nơi mà bạn điền những thứ không muốn Stable Diffusion tạo ra. 
 
 Ví dụ bạn không thích có màu tím trong ảnh của mình, hãy viết ***“purple”*** vào Negative prompt.
 
@@ -90,7 +90,7 @@ Bạn hãy nghĩ thêm các chi tiết cần thiết cho bức ảnh của bạn
 
 Bạn cần bức ảnh theo phong cách gì, hay sử dụng style của họa sĩ hay nhiếp ảnh gia nào? Hãy thêm nó vào đây
 
-> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, **anime style, movie poster,** by Jeremy Lipking, by Alphonse Mucha
+> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, **anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha**
 > 
 
 ![sample]()
@@ -99,7 +99,7 @@ Bạn cần bức ảnh theo phong cách gì, hay sử dụng style của họa 
 
 Cuối cùng là thêm các chi tiết về chất lượng hình ảnh, mức độ tập trung chi tiết cũng như ánh sáng 
 
-> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, anime style, movie poster, **highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting**
+> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha, **highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting**
 > 
 
 ![sample]()
@@ -108,7 +108,7 @@ Cuối cùng là thêm các chi tiết về chất lượng hình ảnh, mức �
 
 Bạn đã có một prompt chứa những điều bạn muốn rồi, nhưng kết quả vẫn chưa được hài lòng lắm, ví dụ như bạn muốn miêu tả khuôn mặt với **`tears on eyes`** nhưng vẫn không thấy nước mắt đâu, thế thì hãy nhấn mạnh cụm từ đó nhé!
 
-> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, **(tears in eyes:1.4)**, full body, dress made of light fabric, standing in the studio, anime style, movie poster, highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting
+> professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, **(tears in eyes:1.4)**, full body, dress made of light fabric, standing in the studio, anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha, highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting
 > 
 
 ![sample]()
@@ -125,13 +125,13 @@ hoặc
 
 ## Hãy dùng Negative prompt
 
-Negative prompt rất quan trọng!
+**Negative prompt rất quan trọng!**
 
-Negative prompt rất quan trọng!
+**Negative prompt rất quan trọng!**
 
-Negative prompt rất quan trọng!
+**Negative prompt rất quan trọng!**
 
-**Điều quan trọng phải nhắc 3 lần!**
+> **Điều quan trọng phải nhắc 3 lần!**
 
 Nhiều người thường nghĩ chỉ cần prompt tốt và chi tiết là được, nhưng với các model Stable Diffusion, đặc biệt là model có base 1.5 hoặc 2 thì Negative prompt là một điều không thể thiếu nếu bạn muốn có được một bức ảnh đẹp!
 
@@ -139,7 +139,7 @@ Khác với prompt mỗi ảnh mỗi khác, **nếu bạn tìm được một ne
 
 Chỉ cần thêm đoạn Negative prompt hay dùng thôi bạn đã có thể có được bức ảnh chất lượng hơn rồi
 
->
+> ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, low contrast, underexposed, overexposed, bad art, beginner, amateur, distorted face
 >
 
 |---
@@ -188,17 +188,17 @@ Bạn có biết rằng giới hạn số lượng từ trong prompt của Stabl
 
 Nhưng thật tình mà nói thì prompt dài chưa chắc đã tốt, mà đa phần còn ảnh hưởng đến chất lượng của bức ảnh. Các phần quá dài phía sau của prompt thường chỉ thêm nhiễu vào ảnh mà không đem lại kết quả đáng lẽ phải có của chúng!
 
-Stable Diffusion chia prompt (và cả Negative prompt) thành từng phần một (chunk), **mỗi phần (chunk) bao gồm 75 tokens** (hoặc bạn có thể hiểu là 75 từ cũng được). Do đó nếu bạn nhập nhiều hơn 75 tokens, Stable Diffusion sẽ chia nó thành nhiều chunk khác nhau và mỗi chunk có 75 tokens.
+Stable Diffusion chia prompt (và cả Negative prompt) thành từng phần một (chunk), **mỗi phần (chunk) bao gồm 75 tokens** (hoặc bạn có thể hiểu là 75 từ cũng được). Do đó nếu bạn nhập nhiều hơn 75 tokens, Stable Diffusion sẽ chia nó thành nhiều chunk khác nhau, mỗi chunk 75 tokens.
 
 > Ví dụ bạn prompt 100 tokens, prompt của bạn sẽ được chia ra làm 2 chunk, chunk 1 chứa 75 tokens và chunk 2 chứa 25 tokens.
 
 **Vậy tại sao ta cần phải hiểu điều đó?**
 
-Bởi vì trong mỗi phần, từ càng nằm ở đầu chunk thì nó càng mạnh.
+> Bởi vì từ càng nằm ở đầu chunk thì nó càng mạnh.
 
 Do ta không thể khống chế prompt sao cho từ ta muốn luôn nằm ở đầu chunk được, nên ta sử dụng một phương pháp đó là dùng từ **BREAK (viết hoa y như thế này nhé)** để tách ra một chunk mới.
 
-Ví dụ nếu prompt bình thường với 100 token sẽ được chia thành 2 phần lần lượt là 75 và 25 tokens. Nhưng nếu ta **đặt từ BREAK phía sau từ thứ 60, prompt sẽ được tách thành 2 chunk, chunk 1 60 tokens, chunk 2 40 token**. 
+Ví dụ nếu prompt bình thường với 100 token sẽ được chia thành 2 phần lần lượt là 75 và 25 tokens. Nhưng nếu ta **đặt từ BREAK phía sau từ thứ 60, prompt sẽ được tách thành 2 chunk, chunk 1 chứa 60 tokens, chunk 2 chứa 40 token**. 
 
 Điều đó giúp ta có thể đảm bảo được từ ta cần luôn nằm ở đầu chunk để đem lại hiệu quả mạnh nhất.
 
@@ -231,14 +231,14 @@ Ngoài ra bạn có thể viết lại câu trên **bằng %** nếu không mu�
 
 **`a picture of a [cow:horse:0.5]`**
 
-- 50% step đầu sẽ là: `a picture of a cow``
-- 50% step sau prompt sẽ là: `a picture of a horse``
+- 50% step đầu sẽ là: `a picture of a cow`
+- 50% step sau prompt sẽ là: `a picture of a horse`
 
 **<r>Chú ý là cách này không dùng được với LoRA hay LyCORIS.</r>**
 
 ### Cách 2: dùng cấu trúc [A|B]
 
-Trong đó A và B là các keyword mà bạn muốn trộn. Lưu ý cách này khác cách 1 là nó sẽ không thay đổi keyword ở một step bất kì mà xen kẽ thay đổi chúng.
+Trong đó A và B là các keyword mà bạn muốn trộn. Lưu ý **cách này khác cách 1 là nó sẽ không thay đổi keyword ở một step nhất định mà xen kẽ thay đổi chúng.**
 
 Ví dụ:
 
@@ -251,9 +251,10 @@ Ví dụ:
 
 Chúng sẽ xen kẽ qua lại cho đến khi đến step cuối cùng.
 
-<gif>
+(gif)
 
 **<r>Chú ý là cách này không dùng được với LoRA hay LyCORIS.</r>**
+
 
 # Tham khảo prompt mẫu
 
