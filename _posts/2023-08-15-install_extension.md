@@ -4,6 +4,7 @@ categories:
 - Hướng dẫn
 - Extension hay
 - Quick tips
+- Newbie
 feature_image: "https://i.imgur.com/vdDA7JO.png"
 indexing: false
 comments: true

@@ -2,7 +2,7 @@
 title: Tổng hợp các câu hỏi thường gặp trong Automatic1111
 categories:
 - Hướng dẫn
-- Tin tức
+- Newbie
 feature_image: "https://i.imgur.com/fno6lWf.png"
 indexing: false
 comments: true
