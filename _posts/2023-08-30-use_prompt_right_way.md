@@ -178,7 +178,7 @@ Model khác biệt sẽ tạo nên kết quả khác biệt, và đôi khi là c
 
 💖
 
-# Một số cách dùng prompt nâng cao
+# Một số cách dùng prompt khác
 
 ## BREAK
 
