@@ -251,7 +251,7 @@ Ví dụ:
 
 Chúng sẽ xen kẽ qua lại cho đến khi đến step cuối cùng.
 
-![hehe](/workspaces/kaodii.github.io/assets/images/197556926-49ceb72b-daf3-4208-86f3-c2e7e9cd775a.gif)
+![hehe](/assets/images/197556926-49ceb72b-daf3-4208-86f3-c2e7e9cd775a.gif)
 
 **<r>Chú ý là cách này không dùng được với LoRA hay LyCORIS.</r>**
 
