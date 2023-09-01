@@ -32,7 +32,7 @@ Ví dụ bạn không thích có màu tím trong ảnh của mình, hãy viết 
 
 **Negative prompt thật sự rất quan trọng, sử dụng Negative prompt hợp lý có thể tăng chất lượng của bức ảnh một cách mạnh mẽ.** 😋
 
-{ví dụ bằng hình}
+![hehe](https://i.imgur.com/wg8FlNp.png)
 
 # Nhấn mạnh prompt
 
@@ -150,7 +150,7 @@ Chỉ cần thêm đoạn Negative prompt hay dùng thôi bạn đã có thể c
 
 💖
 
-Và có một cách rất hiệu quả để dùng Negative prompt, đó chính là dùng [**Negative embedding**](). Bạn hãy tải các Negative embedding về và sử dụng chúng để đem lại hình ảnh đẹp hơn mà không cần tốn công sửa Negative Prompt nhiều.
+Và có một cách rất hiệu quả để dùng Negative prompt, đó chính là dùng [**Negative embedding**](https://drive.google.com/file/d/1Fu6gVkvhAcvqWrHC7DyfeMP-mJvjbu7-/view?usp=sharing){:target="_blank"}. Bạn hãy tải các Negative embedding về và sử dụng chúng để đem lại hình ảnh đẹp hơn mà không cần tốn công sửa Negative Prompt nhiều.
 
 ## Check keyword lạ
 
@@ -188,7 +188,7 @@ Bạn có biết rằng giới hạn số lượng từ trong prompt của Stabl
 
 Nhưng thật tình mà nói thì prompt dài chưa chắc đã tốt, mà đa phần còn ảnh hưởng đến chất lượng của bức ảnh. Các phần quá dài phía sau của prompt thường chỉ thêm nhiễu vào ảnh mà không đem lại kết quả đáng lẽ phải có của chúng!
 
-Stable Diffusion chia prompt (và cả Negative prompt) thành từng phần một (chunk), **mỗi phần (chunk) bao gồm 75 tokens** (hoặc bạn có thể hiểu là 75 từ cũng được). Do đó nếu bạn nhập nhiều hơn 75 tokens, Stable Diffusion sẽ chia nó thành nhiều chunk khác nhau, mỗi chunk 75 tokens.
+Stable Diffusion chia prompt (và cả Negative prompt) thành từng phần một (chunk), **mỗi phần (chunk) bao gồm 75 tokens** (hoặc bạn có thể hiểu là 75 từ cũng được). Do đó nếu bạn nhập nhiều hơn 75 tokens, Stable Diffusion sẽ chia nó thành nhiều chunk khác nhau.
 
 > Ví dụ bạn prompt 100 tokens, prompt của bạn sẽ được chia ra làm 2 chunk, chunk 1 chứa 75 tokens và chunk 2 chứa 25 tokens.
 
@@ -251,7 +251,7 @@ Ví dụ:
 
 Chúng sẽ xen kẽ qua lại cho đến khi đến step cuối cùng.
 
-![hehe](https://i.imgur.com/FBH4f1q.gifv)
+![hehe](/workspaces/kaodii.github.io/assets/images/197556926-49ceb72b-daf3-4208-86f3-c2e7e9cd775a.gif)
 
 **<r>Chú ý là cách này không dùng được với LoRA hay LyCORIS.</r>**
 
