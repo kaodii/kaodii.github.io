@@ -4,7 +4,7 @@ categories:
 - Hướng dẫn
 - Newbie
 - Quick tips
-feature_image: "https://i.imgur.com/vdDA7JO.png"
+feature_image: "https://i.imgur.com/imsAfAj.png"
 indexing: false
 comments: true
 ---
@@ -75,7 +75,7 @@ Bạn muốn vẽ gì, hãy suy nghĩ và miêu tả bằng một câu ngắn v�
 > professional digital painting of **a beautiful girl wearing gorgeous wedding dress**
 > 
 
-![sample]()
+![sample](https://i.imgur.com/qWEaWbM.png)
 
 ### Thêm chi tiết
 
@@ -84,7 +84,7 @@ Bạn hãy nghĩ thêm các chi tiết cần thiết cho bức ảnh của bạn
 > professional digital painting of a beautiful girl wearing a gorgeous wedding dress, **happy face, tears in eyes, full body, dress made of light fabric, standing in the studio**
 > 
 
-![sample]()
+![sample](https://i.imgur.com/D9cuQDJ.png)
 
 ### Phong cách
 
@@ -93,7 +93,7 @@ Bạn cần bức ảnh theo phong cách gì, hay sử dụng style của họa 
 > professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, **anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha**
 > 
 
-![sample]()
+![sample](https://i.imgur.com/XyJfeB7.png)
 
 ### Chất lượng và Ánh sáng
 
@@ -102,7 +102,7 @@ Cuối cùng là thêm các chi tiết về chất lượng hình ảnh, mức �
 > professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, tears in eyes, full body, dress made of light fabric, standing in the studio, anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha, **highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting**
 > 
 
-![sample]()
+![sample](https://i.imgur.com/pCXrP9f.png)
 
 ## Nhấn mạnh thứ bạn muốn
 
@@ -111,17 +111,17 @@ Bạn đã có một prompt chứa những điều bạn muốn rồi, nhưng k�
 > professional digital painting of a beautiful girl wearing a gorgeous wedding dress, happy face, **(tears in eyes:1.4)**, full body, dress made of light fabric, standing in the studio, anime style, movie poster, by Jeremy Lipking, by Alphonse Mucha, highly detailed, sharp focus, face focus, detailed eyes, studio lighting, backlighting
 > 
 
-![sample]()
+![sample](https://i.imgur.com/rsDCAde.png)
 
 Ừm có vẻ có nước mắt hơn rồi, nhưng do ta tạo ảnh với độ phân giải thấp quá nên nhìn hơi không đẹp lắm 😭
 
 Nếu bạn muốn tìm hiểu rõ hơn về cách viết prompt chuẩn, hãy tham khảo cuốn ebook này nhé: 
 
-[Prompt book Tiếng Anh]() 
+[Prompt book Tiếng Anh](https://openart.ai/promptbook){:target="_blank"}
 
 hoặc 
 
-[Prompt book Tiếng Việt (bản dịch bởi Hà Hải Nam)]()
+[Prompt book Tiếng Việt (bản dịch bởi Hà Hải Nam)](https://drive.google.com/file/d/1joOdcN5cqqwcJgUxds3MhB7pQ9EZk6vv/view?usp=sharing){:target="_blank"}
 
 ## Hãy dùng Negative prompt
 
@@ -143,7 +143,7 @@ Chỉ cần thêm đoạn Negative prompt hay dùng thôi bạn đã có thể c
 >
 
 |---
-| ![hehe](https://i.imgur.com/9tpdYu1.png) |  | ![hehe](https://i.imgur.com/pRQBxz1.png)
+| ![hehe](https://i.imgur.com/lhPujZO.png) |  | ![hehe](https://i.imgur.com/qC6DLpI.png)
 |:--:|:--:|:--:
 | Không dùng Negative prompt |  | Có dùng Negative prompt
 |---
@@ -158,20 +158,20 @@ Một số keyword có thể bạn nghĩ nó hữu dụng nhưng thực ra thì 
 
 **Ví dụ dùng Perry Platypus**
 
-{% include figure.html image="https://i.imgur.com/pZYNpop.png" caption="Có vẻ model không biết Agent P của chúng ta rồi" %}
+{% include figure.html image="https://i.imgur.com/FnJWwgC.png" caption="Có vẻ model không biết Agent P của chúng ta rồi" %}
 
 **Ví dụ dùng Spiderman**
 
-{% include figure.html image="https://i.imgur.com/pZYNpop.png" caption="Nhưng có vẻ là fan Marvel" %}
+{% include figure.html image="https://i.imgur.com/3KJ3Crc.png" caption="Nhưng có vẻ là fan Marvel" %}
 
 Do đó, nếu bạn muốn biết keyword đó có được model hiểu không, hay độ mạnh của keyword đó như thế nào, cách đơn giản nhất là thử nghiệm. Một lần tạo ảnh không có keyword đó và một lần khác thêm nó vào, cộng với việc tăng giảm độ mạnh của **`(keyword:1.4)`**.
 
 ## Tầm quan trọng của model (checkpoint)
 
-Model khác biệt sẽ tạo nên kết quả khác biệt, và đôi khi là chẳng giống nhau tí nào. Do đó hãy chọn checkpoint với phong cách mà bạn muốn để đạt được kết quả ưng ý nhất nhé.
+Model khác biệt sẽ tạo nên kết quả khác biệt, và đôi khi là chẳng giống nhau tí nào dù có prompt và các thông số khác y hệt nhau. Do đó hãy chọn checkpoint với phong cách mà bạn muốn để đạt được kết quả ưng ý nhất nhé.
 
 |---
-| ![hehe](https://i.imgur.com/9tpdYu1.png) |  | ![hehe](https://i.imgur.com/pRQBxz1.png)
+| ![hehe](https://i.imgur.com/htZ3DG6.png) |  | ![hehe](https://i.imgur.com/kzJkwx2.png)
 |:--:|:--:|:--:
 | Dùng model chuyên Anime |  | Dùng model chuyên Realistic
 |---
@@ -212,7 +212,7 @@ Thế nhưng, lời khuyên của mình là hãy viết prompt thật kĩ và ng
 
 Bạn muốn vẽ một bức tranh trộn giữa một con bò và một con ngựa? Thay vì prompt **“một con bò lai ngựa (half cow half horse)”** - thứ mà không hẳn Stable Diffusion đã hiểu thì có một vài cách giúp bạn làm điều đó dễ dàng hơn đấy
 
-![images]()
+![images](https://i.imgur.com/mo91Gf6.png)
 
 ### Cách 1: dùng cấu trúc [from:to:when]
 
@@ -251,7 +251,7 @@ Ví dụ:
 
 Chúng sẽ xen kẽ qua lại cho đến khi đến step cuối cùng.
 
-(gif)
+![hehe](https://i.imgur.com/FBH4f1q.gifv)
 
 **<r>Chú ý là cách này không dùng được với LoRA hay LyCORIS.</r>**
 
@@ -264,7 +264,7 @@ Chúng sẽ xen kẽ qua lại cho đến khi đến step cuối cùng.
 
 Sau đây là một số trang web bạn có thể dùng để kiếm các prompt mẫu
 
-[CivitAI](){:target="_blank"}
+[CivitAI](https://civitai.com/){:target="_blank"}
 
 Nơi đang model số 1 thì không thể thiếu prompt mẫu rồi, bạn hãy chọn model nổi tiếng và tìm hình ảnh mình thích và copy prompt thôi
 
@@ -279,11 +279,16 @@ Bạn có thể dùng các tool này để tham khảo về họa sĩ và phong 
 
 [Prompt Pallette](https://civitai.com/models/95839?modelVersionId=102355){:target="_blank"}
 
-Với tool này, bạn chỉ cần download về và mở file html lên xem là được
+![hehe](https://i.imgur.com/HfvYf93.png)
 
-[SD Cheat Sheet](/workspaces/kaodii.github.io/tools/sd_cheat_sheets_one/index.html){:target="_blank"}
+Với tool này, bạn chỉ cần download về và mở file html lên xem là được! Nó sẽ giúp bạn tham khảo các thể loại cũng như họa sĩ với hình ảnh minh họa trực quan, giúp bạn dễ dàng chọn được phong cách yêu thích.
 
-Đối với tool này thì bạn có thể dùng trực tiếp trên đây cũng được, hoặc vào [Github của Tool](https://github.com/SupaGruen/StableDiffusion-CheatSheet){:target="_blank"}, để tải về và xài.
+[SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet){:target="_blank"}
+
+![hehe](https://i.imgur.com/CbfxTK0.png)
+
+Đối với tool này thì bạn vào [Github của Tool](https://github.com/SupaGruen/StableDiffusion-CheatSheet){:target="_blank"}, sau khi download về thì chỉ cần mở file index.html lên là được.
+Tool naỳ cũng giúp bạn tìm và tra cứu tên của các họa sĩ với các phong cách riêng, giúp bạn tìm được phong cách mà mình thích
 
 **Như mọi khi, nếu thấy bài viết là hữu ích hãy chia sẻ nó với mọi người, cũng như nếu bạn có điều kiện có thể ủng hộ mình trong mục Donate để có thêm động lực viết thêm nhiều bài viết nữa.**
 
